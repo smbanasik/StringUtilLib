@@ -17,5 +17,9 @@ int main() {
     for (auto& elem : res_two)
         std::cout << elem << "\n";
 
+    std::string res_three = sb::stdstr::join(res_two, '_');
+
+    std::cout << res_three << "\n";
+
     return 0;
 }
