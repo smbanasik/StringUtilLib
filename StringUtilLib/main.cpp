@@ -1,5 +1,5 @@
 // Spencer Banasik
-// Test bed
+// Simple test function for basic functionality.
 #include "string_util.h"
 
 #include <iostream>
@@ -20,6 +20,14 @@ int main() {
     std::string res_three = sb::stdstr::join(res_two, '_');
 
     std::cout << res_three << "\n";
+
+    std::cout << sb::stdstr::to_upper(test_one) << "\n";
+    std::cout << sb::stdstr::to_lower(test_one) << "\n";
+
+    std::string test_two = "         hello, world  !    ";
+
+    std::cout << "|" << test_two << "|\n";
+    std::cout << "|" << sb::stdstr::trim(test_two) << "|\n";
 
     return 0;
 }
