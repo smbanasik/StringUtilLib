@@ -1,6 +1,6 @@
 # StringUtilLib
 
-This is a simple library containing some utility functions that I believe std::string should have. Python and Java have a variety of useful string functions, such as split and join, that I did not see for C++. Additionally, string functions lack functionality that should be expected within the library, such as substr not working with iterators [1](https://en.cppreference.com/w/cpp/string/basic_string/substr), or erase not working with reverse iterators [2](https://stackoverflow.com/questions/1830158/how-to-call-erase-with-a-reverse-iterator)[3](https://en.cppreference.com/w/cpp/string/basic_string/erase).
+This is a simple library containing some utility functions that I believe std::string should have. Python and Java have a variety of useful string functions, such as split and join, that I did not see for C++. Additionally, string functions lack functionality that should be expected within the library, such as substr not working with iterators [1](https://en.cppreference.com/w/cpp/string/basic_string/substr), or erase not working with reverse iterators [2](https://stackoverflow.com/questions/1830158/how-to-call-erase-with-a-reverse-iterator) [3](https://en.cppreference.com/w/cpp/string/basic_string/erase).
 
 Some functionality in the library, like to_upper and to_lower is able to be performed with std::transform, but I believe that to be less intuitive than specific functions.
 
